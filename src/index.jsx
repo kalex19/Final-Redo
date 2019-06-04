@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App/App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import { rootReducer } from './reducers';
+import { rootReducer } from './reducers/index';
 import devTools from 'redux-devtools-extension';
 
 const store = createStore(rootReducer, devTools);
