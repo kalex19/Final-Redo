@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CardContainer from '../../components/CardContainer/CardContainer.jsx';
+import { connect } from 'react-redux';
 
 export class App extends Component {
 	constructor(props) {
