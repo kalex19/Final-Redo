@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Card extends Component {
 	render() {
 		return (
-			<div>
-				<p>Name: {this.name}</p>
-				<p>Weight: {this.weight}</p>
-				<p>Sprites: {this.sprites}</p>
+			<div className="card">
+				<p>Name: {this.props.name}</p>
+				<p>Weight: {this.props.weight}</p>
+				<p>Sprites: {this.props.sprites}</p>
 			</div>
 		);
 	}
